@@ -46,8 +46,13 @@
         };
 
         sleep {
-            bindings = <&kp K_SLEEP>;
+            bindings = <&kp C_SLEEP_MODE>;
             key-positions = <6 11>;
+        };
+
+        shutdown {
+            bindings = <&kp C_POWER>;
+            key-positions = <0 5 6 11>;
         };
     };
 
