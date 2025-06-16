@@ -73,7 +73,7 @@
         };
 
         symbol_layer {
-            label = "SYM";
+            label = "BLE";
             bindings = <
 &trans          &trans        &trans        &trans        &trans        &trans                        &trans  &trans  &trans  &trans  &trans  &bootloader
 &trans          &trans        &trans        &trans        &trans        &trans                        &trans  &trans  &trans  &trans  &trans  &trans
