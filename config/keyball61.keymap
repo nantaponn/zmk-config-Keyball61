@@ -52,7 +52,7 @@
 
         prtsc {
             bindings = <&kp PRINTSCREEN>;
-            key-positions = <33 34>;
+            key-positions = <31 32>;
         };
     };
 
