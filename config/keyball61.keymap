@@ -95,7 +95,7 @@
 &trans     &trans  &trans    &trans  &trans      &trans                                   &trans  &trans  &trans  &trans  &trans   &trans
 &trans     &trans  &trans    &trans  &trans      &trans                                   &trans  &trans  &trans  &trans  &trans   &trans
 &kp LSHFT  &trans  &trans    &trans  &trans      &trans             &trans        &trans  &trans  &trans  &trans  &trans  &trans   &kp RSHFT
-&trans     &trans  &kp LALT  &trans  &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOL_UP  &trans  &trans                          &trans   &trans
+&trans     &trans  &kp LALT  &trans  &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOL_UP  &trans  &trans                          &trans   &trans
             >;
         };
 
