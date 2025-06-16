@@ -107,11 +107,11 @@
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                     &trans  &trans          &kp UP_ARROW    &trans     &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans                     &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans                     &trans  &mkp LCLK       &mo 5           &mkp RCLK  &mkp MCLK  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans          &trans          &trans     &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp RCLK  &trans                                             &trans     &trans
+&trans     &trans  &trans    &trans  &trans  &trans                           &trans     &trans          &kp UP_ARROW    &trans     &trans     &trans
+&trans     &trans  &trans    &trans  &trans  &trans                           &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans     &trans
+&trans     &trans  &trans    &trans  &trans  &trans                           &trans     &mkp LCLK       &mo 5           &mkp RCLK  &mkp MCLK  &trans
+&kp LSHFT  &trans  &trans    &trans  &trans  &trans     &trans     &trans     &trans     &trans          &trans          &trans     &trans     &kp RSHFT
+&trans     &trans  &kp LALT  &trans  &trans  &kp SPACE  &kp ENTER  &kp ENTER  &kp SPACE                                             &trans     &trans
             >;
         };
 
@@ -129,11 +129,11 @@
         snipe_layer {
             label = "SNIPE";
             bindings = <
-&bootloader  &trans  &trans  &trans  &trans  &trans                  &trans  &trans     &trans  &trans     &trans  &trans
-&trans       &trans  &trans  &trans  &trans  &trans                  &trans  &trans     &trans  &trans     &trans  &trans
-&trans       &trans  &trans  &trans  &trans  &trans                  &trans  &mkp LCLK  &mo 5   &mkp RCLK  &trans  &trans
-&trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans     &trans  &trans
-&trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                &trans  &trans
+&bootloader  &trans  &trans  &trans  &trans  &trans                  &trans  &trans     &trans  &trans     &trans     &trans
+&trans       &trans  &trans  &trans  &trans  &trans                  &trans  &trans     &trans  &trans     &trans     &trans
+&trans       &trans  &trans  &trans  &trans  &trans                  &trans  &mkp LCLK  &mo 5   &mkp RCLK  &mkp MCLK  &trans
+&trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans     &trans     &trans
+&trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                &trans     &trans
             >;
         };
     };
