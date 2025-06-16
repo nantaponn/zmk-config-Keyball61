@@ -49,6 +49,11 @@
             bindings = <&gresc>;
             key-positions = <16 19>;
         };
+
+        prtsc {
+            bindings = <&kp PRINTSCREEN>;
+            key-positions = <33 34>;
+        };
     };
 
     keymap {
