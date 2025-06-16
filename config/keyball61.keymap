@@ -44,6 +44,16 @@
             bindings = <&mo 6>;
             key-positions = <32 33>;
         };
+
+        lang1 {
+            bindings = <&kp LANG1>;
+            key-positions = <28 31>;
+        };
+
+        lang2 {
+            bindings = <&kp LANGUAGE_2>;
+            key-positions = <27 32>;
+        };
     };
 
     keymap {
