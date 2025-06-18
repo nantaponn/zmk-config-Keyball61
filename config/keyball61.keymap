@@ -122,11 +122,11 @@
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&trans     &trans     &trans    &trans    &trans  &trans                           &trans     &trans          &kp UP_ARROW       &trans           &trans     &trans
-&trans     &trans     &trans    &trans    &trans  &trans                           &trans     &kp LEFT_ARROW  &kp DOWN_ARROW     &kp RIGHT        &trans     &trans
-&trans     &trans     &trans    &trans    &trans  &trans                           &trans     &mkp LCLK       &mo 5              &mkp RCLK        &mkp MCLK  &trans
-&kp LSHFT  &kp Z      &kp X     &kp C     &kp V   &trans     &trans     &trans     &trans     &kp C_MUTE      &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans     &kp RSHFT
-&trans     &kp LCTRL  &kp LALT  &kp LGUI  &trans  &kp SPACE  &kp ENTER  &kp ENTER  &kp SPACE                                                      &trans     &trans
+&trans     &trans     &trans    &trans    &trans  &trans                           &trans         &trans          &kp UP_ARROW       &trans           &trans     &trans
+&trans     &trans     &trans    &trans    &trans  &trans                           &trans         &kp LEFT_ARROW  &kp DOWN_ARROW     &kp RIGHT        &trans     &trans
+&trans     &trans     &trans    &trans    &trans  &trans                           &trans         &mkp LCLK       &mo 5              &mkp RCLK        &mkp MCLK  &trans
+&kp LSHFT  &kp Z      &kp X     &kp C     &kp V   &trans     &trans     &trans     &trans         &kp C_MUTE      &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans     &kp RSHFT
+&trans     &kp LCTRL  &kp LALT  &kp LGUI  &trans  &kp SPACE  &kp ENTER  &kp ENTER  &kp BACKSPACE                                                      &trans     &trans
             >;
         };
 
@@ -144,11 +144,11 @@
         snipe_layer {
             label = "SNIPE";
             bindings = <
-&bootloader  &trans     &trans    &trans  &trans  &trans                           &trans     &trans     &kp UP_ARROW    &trans     &trans     &trans
-&trans       &trans     &trans    &trans  &trans  &trans                           &trans     &kp LEFT   &kp DOWN_ARROW  &kp RIGHT  &trans     &trans
-&trans       &trans     &trans    &trans  &trans  &trans                           &trans     &mkp LCLK  &mo 5           &mkp RCLK  &mkp MCLK  &trans
-&kp LSHFT    &kp Z      &kp X     &kp C   &kp V   &trans     &trans     &trans     &trans     &trans     &trans          &trans     &trans     &kp RSHFT
-&trans       &kp LCTRL  &kp LALT  &trans  &trans  &kp SPACE  &kp ENTER  &kp ENTER  &kp SPACE                                        &trans     &trans
+&bootloader  &trans     &trans    &trans  &trans  &trans                           &trans         &trans     &kp UP_ARROW    &trans     &trans     &trans
+&trans       &trans     &trans    &trans  &trans  &trans                           &trans         &kp LEFT   &kp DOWN_ARROW  &kp RIGHT  &trans     &trans
+&trans       &trans     &trans    &trans  &trans  &trans                           &trans         &mkp LCLK  &mo 5           &mkp RCLK  &mkp MCLK  &trans
+&kp LSHFT    &kp Z      &kp X     &kp C   &kp V   &trans     &trans     &trans     &trans         &trans     &trans          &trans     &trans     &kp RSHFT
+&trans       &kp LCTRL  &kp LALT  &trans  &trans  &kp SPACE  &kp ENTER  &kp ENTER  &kp BACKSPACE                                        &trans     &trans
             >;
         };
     };
