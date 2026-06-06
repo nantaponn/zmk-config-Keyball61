@@ -442,11 +442,11 @@ combos:
 - p: [27, 28]
   k: $$mdi:printer-outline$$
 - p: [31, 32]
-  k: COPY
+  k: Ctl+C
 - p: [45, 46]
-  k: CUT
+  k: Ctl+X
 - p: [33, 34]
-  k: PASTE
+  k: Ctl+V
 - p: [46, 47]
   k: SNIPE
 - p: [40, 39]
