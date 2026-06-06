@@ -419,8 +419,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -434,3 +434,18 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+combos:
+- p: [32, 33]
+  k: {t: MOUSE, h: toggle}
+- p: [28, 31]
+  k: {t: '`', s: '~'}
+- p: [27, 28]
+  k: $$mdi:printer-outline$$
+- p: [31, 32]
+  k: COPY
+- p: [45, 46]
+  k: CUT
+- p: [33, 34]
+  k: PASTE
+- p: [46, 47]
+  k: SNIPE

@@ -60,6 +60,9 @@
 <svg id="mdi:mouse-scroll-wheel">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-mouse-scroll-wheel" viewBox="0 0 24 24"><path d="M11 1.07C7.05 1.56 4 4.92 4 9H11V7.73C10.4 7.39 10 6.74 10 6V4C10 3.26 10.4 2.61 11 2.27V1.07M13 9V7.73C13.6 7.39 14 6.74 14 6V4C14 3.26 13.6 2.61 13 2.27V1.07C16.94 1.56 20 4.92 20 9H13M4 15C4 17.12 4.84 19.16 6.34 20.66C7.84 22.16 9.88 23 12 23C14.12 23 16.16 22.16 17.66 20.66C19.16 19.16 20 17.12 20 15V11H4V15M13 6V4C13 3.45 12.55 3 12 3C11.45 3 11 3.45 11 4V6C11 6.55 11.45 7 12 7C12.55 7 13 6.55 13 6Z" /></svg>
 </svg>
+<svg id="mdi:printer-outline">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-printer-outline" viewBox="0 0 24 24"><path d="M19 8C20.66 8 22 9.34 22 11V17H18V21H6V17H2V11C2 9.34 3.34 8 5 8H6V3H18V8H19M8 5V8H16V5H8M16 19V15H8V19H16M18 15H20V11C20 10.45 19.55 10 19 10H5C4.45 10 4 10.45 4 11V15H6V13H18V15M19 11.5C19 12.05 18.55 12.5 18 12.5C17.45 12.5 17 12.05 17 11.5C17 10.95 17.45 10.5 18 10.5C18.55 10.5 19 10.95 19 11.5Z" /></svg>
+</svg>
 <svg id="mdi:transfer">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-transfer" viewBox="0 0 24 24"><path d="M8 4A2 2 0 0 0 6 6V10H8V6H16V9H13.5L17 12.5L20.5 9H18V6A2 2 0 0 0 16 4H8M3 12V14H11V12H3M3 15V17H11V15H3M13 15V17H21V15H13M3 18V20H11V18H3M13 18V20H21V18H13Z" /></svg>
 </svg>
@@ -600,6 +603,40 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:backspace-reverse-outline"/>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="714" y="134" width="28" height="26" class="combo"/>
+<a href="#MOUSE">
+<text x="728" y="147" class="combo tap layer-activator">MOUSE</text>
+</a><text x="728" y="158" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-1">
+<path d="M448,154 l-177,0" class="combo"/>
+<path d="M448,154 l177,0" class="combo"/>
+<rect rx="6" ry="6" x="434" y="141" width="28" height="26" class="combo"/>
+<text x="448" y="154" class="combo tap">`</text>
+<text x="448" y="143" class="combo shifted">~</text>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="210" y="134" width="28" height="26" class="combo"/>
+<use href="#mdi:printer-outline" xlink:href="#mdi:printer-outline" x="215" y="138" height="18" width="18.0" class="combo tap glyph mdi:printer-outline"/>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="658" y="134" width="28" height="26" class="combo"/>
+<text x="672" y="147" class="combo tap">COPY</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="658" y="190" width="28" height="26" class="combo"/>
+<text x="672" y="203" class="combo tap">CUT</text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="770" y="148" width="28" height="26" class="combo"/>
+<text x="784" y="161" class="combo tap">PASTE</text>
+</g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="714" y="190" width="28" height="26" class="combo"/>
+<a href="#SNIPE">
+<text x="728" y="203" class="combo tap layer-activator">SNIPE</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(40, 398)" class="layer-NUM">
@@ -920,6 +957,40 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="714" y="134" width="28" height="26" class="combo"/>
+<a href="#MOUSE">
+<text x="728" y="147" class="combo tap layer-activator">MOUSE</text>
+</a><text x="728" y="158" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-1">
+<path d="M448,154 l-177,0" class="combo"/>
+<path d="M448,154 l177,0" class="combo"/>
+<rect rx="6" ry="6" x="434" y="141" width="28" height="26" class="combo"/>
+<text x="448" y="154" class="combo tap">`</text>
+<text x="448" y="143" class="combo shifted">~</text>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="210" y="134" width="28" height="26" class="combo"/>
+<use href="#mdi:printer-outline" xlink:href="#mdi:printer-outline" x="215" y="138" height="18" width="18.0" class="combo tap glyph mdi:printer-outline"/>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="658" y="134" width="28" height="26" class="combo"/>
+<text x="672" y="147" class="combo tap">COPY</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="658" y="190" width="28" height="26" class="combo"/>
+<text x="672" y="203" class="combo tap">CUT</text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="770" y="148" width="28" height="26" class="combo"/>
+<text x="784" y="161" class="combo tap">PASTE</text>
+</g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="714" y="190" width="28" height="26" class="combo"/>
+<a href="#SNIPE">
+<text x="728" y="203" class="combo tap layer-activator">SNIPE</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(40, 796)" class="layer-SYM">
@@ -1236,6 +1307,40 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="714" y="134" width="28" height="26" class="combo"/>
+<a href="#MOUSE">
+<text x="728" y="147" class="combo tap layer-activator">MOUSE</text>
+</a><text x="728" y="158" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-1">
+<path d="M448,154 l-177,0" class="combo"/>
+<path d="M448,154 l177,0" class="combo"/>
+<rect rx="6" ry="6" x="434" y="141" width="28" height="26" class="combo"/>
+<text x="448" y="154" class="combo tap">`</text>
+<text x="448" y="143" class="combo shifted">~</text>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="210" y="134" width="28" height="26" class="combo"/>
+<use href="#mdi:printer-outline" xlink:href="#mdi:printer-outline" x="215" y="138" height="18" width="18.0" class="combo tap glyph mdi:printer-outline"/>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="658" y="134" width="28" height="26" class="combo"/>
+<text x="672" y="147" class="combo tap">COPY</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="658" y="190" width="28" height="26" class="combo"/>
+<text x="672" y="203" class="combo tap">CUT</text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="770" y="148" width="28" height="26" class="combo"/>
+<text x="784" y="161" class="combo tap">PASTE</text>
+</g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="714" y="190" width="28" height="26" class="combo"/>
+<a href="#SNIPE">
+<text x="728" y="203" class="combo tap layer-activator">SNIPE</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(40, 1195)" class="layer-FUN">
@@ -1546,6 +1651,40 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="714" y="134" width="28" height="26" class="combo"/>
+<a href="#MOUSE">
+<text x="728" y="147" class="combo tap layer-activator">MOUSE</text>
+</a><text x="728" y="158" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-1">
+<path d="M448,154 l-177,0" class="combo"/>
+<path d="M448,154 l177,0" class="combo"/>
+<rect rx="6" ry="6" x="434" y="141" width="28" height="26" class="combo"/>
+<text x="448" y="154" class="combo tap">`</text>
+<text x="448" y="143" class="combo shifted">~</text>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="210" y="134" width="28" height="26" class="combo"/>
+<use href="#mdi:printer-outline" xlink:href="#mdi:printer-outline" x="215" y="138" height="18" width="18.0" class="combo tap glyph mdi:printer-outline"/>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="658" y="134" width="28" height="26" class="combo"/>
+<text x="672" y="147" class="combo tap">COPY</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="658" y="190" width="28" height="26" class="combo"/>
+<text x="672" y="203" class="combo tap">CUT</text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="770" y="148" width="28" height="26" class="combo"/>
+<text x="784" y="161" class="combo tap">PASTE</text>
+</g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="714" y="190" width="28" height="26" class="combo"/>
+<a href="#SNIPE">
+<text x="728" y="203" class="combo tap layer-activator">SNIPE</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(40, 1593)" class="layer-MOUSE">
@@ -1857,6 +1996,40 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="714" y="134" width="28" height="26" class="combo"/>
+<a href="#MOUSE">
+<text x="728" y="147" class="combo tap layer-activator">MOUSE</text>
+</a><text x="728" y="158" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-1">
+<path d="M448,154 l-177,0" class="combo"/>
+<path d="M448,154 l177,0" class="combo"/>
+<rect rx="6" ry="6" x="434" y="141" width="28" height="26" class="combo"/>
+<text x="448" y="154" class="combo tap">`</text>
+<text x="448" y="143" class="combo shifted">~</text>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="210" y="134" width="28" height="26" class="combo"/>
+<use href="#mdi:printer-outline" xlink:href="#mdi:printer-outline" x="215" y="138" height="18" width="18.0" class="combo tap glyph mdi:printer-outline"/>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="658" y="134" width="28" height="26" class="combo"/>
+<text x="672" y="147" class="combo tap">COPY</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="658" y="190" width="28" height="26" class="combo"/>
+<text x="672" y="203" class="combo tap">CUT</text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="770" y="148" width="28" height="26" class="combo"/>
+<text x="784" y="161" class="combo tap">PASTE</text>
+</g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="714" y="190" width="28" height="26" class="combo"/>
+<a href="#SNIPE">
+<text x="728" y="203" class="combo tap layer-activator">SNIPE</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(40, 1991)" class="layer-SCROLL">
@@ -2164,6 +2337,40 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="714" y="134" width="28" height="26" class="combo"/>
+<a href="#MOUSE">
+<text x="728" y="147" class="combo tap layer-activator">MOUSE</text>
+</a><text x="728" y="158" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-1">
+<path d="M448,154 l-177,0" class="combo"/>
+<path d="M448,154 l177,0" class="combo"/>
+<rect rx="6" ry="6" x="434" y="141" width="28" height="26" class="combo"/>
+<text x="448" y="154" class="combo tap">`</text>
+<text x="448" y="143" class="combo shifted">~</text>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="210" y="134" width="28" height="26" class="combo"/>
+<use href="#mdi:printer-outline" xlink:href="#mdi:printer-outline" x="215" y="138" height="18" width="18.0" class="combo tap glyph mdi:printer-outline"/>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="658" y="134" width="28" height="26" class="combo"/>
+<text x="672" y="147" class="combo tap">COPY</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="658" y="190" width="28" height="26" class="combo"/>
+<text x="672" y="203" class="combo tap">CUT</text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="770" y="148" width="28" height="26" class="combo"/>
+<text x="784" y="161" class="combo tap">PASTE</text>
+</g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="714" y="190" width="28" height="26" class="combo"/>
+<a href="#SNIPE">
+<text x="728" y="203" class="combo tap layer-activator">SNIPE</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(40, 2389)" class="layer-SNIPE">
@@ -2399,15 +2606,13 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
-<g transform="translate(700, 196)" class="key trans keypos-46">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+<g transform="translate(700, 196)" class="key held alternate keypos-46">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held alternate side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key held alternate"/>
 </g>
-<g transform="translate(756, 210)" class="key trans keypos-47">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+<g transform="translate(756, 210)" class="key held alternate keypos-47">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held alternate side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key held alternate"/>
 </g>
 <g transform="translate(812, 224)" class="key trans keypos-48">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -2473,6 +2678,40 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="714" y="134" width="28" height="26" class="combo"/>
+<a href="#MOUSE">
+<text x="728" y="147" class="combo tap layer-activator">MOUSE</text>
+</a><text x="728" y="158" class="combo hold">toggle</text>
+</g>
+<g class="combo combopos-1">
+<path d="M448,154 l-177,0" class="combo"/>
+<path d="M448,154 l177,0" class="combo"/>
+<rect rx="6" ry="6" x="434" y="141" width="28" height="26" class="combo"/>
+<text x="448" y="154" class="combo tap">`</text>
+<text x="448" y="143" class="combo shifted">~</text>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="210" y="134" width="28" height="26" class="combo"/>
+<use href="#mdi:printer-outline" xlink:href="#mdi:printer-outline" x="215" y="138" height="18" width="18.0" class="combo tap glyph mdi:printer-outline"/>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="658" y="134" width="28" height="26" class="combo"/>
+<text x="672" y="147" class="combo tap">COPY</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="658" y="190" width="28" height="26" class="combo"/>
+<text x="672" y="203" class="combo tap">CUT</text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="770" y="148" width="28" height="26" class="combo"/>
+<text x="784" y="161" class="combo tap">PASTE</text>
+</g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="714" y="190" width="28" height="26" class="combo"/>
+<a href="#SNIPE">
+<text x="728" y="203" class="combo tap layer-activator">SNIPE</text>
+</a></g>
 </g>
 </g>
 </svg>
