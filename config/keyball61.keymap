@@ -13,6 +13,7 @@
 #include <dt-bindings/zmk/pointing.h>
 
 // 1. ตั้งค่าความเร็วการเคลื่อนที่และระยะ Scroll ใหม่อย่างถูกต้อง
+
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 1500
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 15
 
@@ -72,6 +73,11 @@
         Number {
             bindings = <&tog 1>;
             key-positions = <40 39>;
+        };
+
+        Cal {
+            bindings = <&kp K_CALC>;
+            key-positions = <15 14>;
         };
     };
 
