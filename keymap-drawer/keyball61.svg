@@ -651,10 +651,6 @@ rect.held, rect.combo.held {
 <text x="224" y="203" class="combo tap layer-activator">NUM</text>
 </a><text x="224" y="214" class="combo hold">toggle</text>
 </g>
-<g class="combo combopos-8">
-<rect rx="6" ry="6" x="154" y="78" width="28" height="26" class="combo"/>
-<text x="168" y="91" class="combo tap">CALC</text>
-</g>
 </g>
 </g>
 <g transform="translate(40, 398)" class="layer-NUM">
@@ -1384,10 +1380,6 @@ rect.held, rect.combo.held {
 <text x="224" y="203" class="combo tap layer-activator">NUM</text>
 </a><text x="224" y="214" class="combo hold">toggle</text>
 </g>
-<g class="combo combopos-8">
-<rect rx="6" ry="6" x="154" y="78" width="28" height="26" class="combo"/>
-<text x="168" y="91" class="combo tap">CALC</text>
-</g>
 </g>
 </g>
 <g transform="translate(40, 1195)" class="layer-FUN">
@@ -1737,10 +1729,6 @@ rect.held, rect.combo.held {
 <a href="#NUM">
 <text x="224" y="203" class="combo tap layer-activator">NUM</text>
 </a><text x="224" y="214" class="combo hold">toggle</text>
-</g>
-<g class="combo combopos-8">
-<rect rx="6" ry="6" x="154" y="78" width="28" height="26" class="combo"/>
-<text x="168" y="91" class="combo tap">CALC</text>
 </g>
 </g>
 </g>
@@ -2093,10 +2081,6 @@ rect.held, rect.combo.held {
 <text x="224" y="203" class="combo tap layer-activator">NUM</text>
 </a><text x="224" y="214" class="combo hold">toggle</text>
 </g>
-<g class="combo combopos-8">
-<rect rx="6" ry="6" x="154" y="78" width="28" height="26" class="combo"/>
-<text x="168" y="91" class="combo tap">CALC</text>
-</g>
 </g>
 </g>
 <g transform="translate(40, 1991)" class="layer-SCROLL">
@@ -2448,10 +2432,6 @@ rect.held, rect.combo.held {
 <a href="#NUM">
 <text x="224" y="203" class="combo tap layer-activator">NUM</text>
 </a><text x="224" y="214" class="combo hold">toggle</text>
-</g>
-<g class="combo combopos-8">
-<rect rx="6" ry="6" x="154" y="78" width="28" height="26" class="combo"/>
-<text x="168" y="91" class="combo tap">CALC</text>
 </g>
 </g>
 </g>
@@ -2806,10 +2786,6 @@ rect.held, rect.combo.held {
 <a href="#NUM">
 <text x="224" y="203" class="combo tap layer-activator">NUM</text>
 </a><text x="224" y="214" class="combo hold">toggle</text>
-</g>
-<g class="combo combopos-8">
-<rect rx="6" ry="6" x="154" y="78" width="28" height="26" class="combo"/>
-<text x="168" y="91" class="combo tap">CALC</text>
 </g>
 </g>
 </g>

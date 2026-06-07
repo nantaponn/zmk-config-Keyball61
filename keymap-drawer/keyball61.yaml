@@ -453,3 +453,4 @@ combos:
   k: {t: NUM, h: toggle}
 - p: [15, 14]
   k: CALC
+  l: [NUM]
