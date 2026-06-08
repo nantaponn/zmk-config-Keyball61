@@ -452,5 +452,5 @@ combos:
 - p: [40, 39]
   k: {t: NUM, h: toggle}
 - p: [15, 14]
-  k: AL CALC
+  k: CALCULATOR
   l: [NUM]
