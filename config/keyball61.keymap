@@ -76,9 +76,8 @@
         };
 
         Cal {
-            bindings = <&kp K_CALCULATOR>;
+            bindings = <&kp C_AL_CALCULATOR>;
             key-positions = <15 14>;
-            layers = <1>;
             require-prior-idle-ms = <150>;
         };
     };
