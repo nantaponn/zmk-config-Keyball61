@@ -670,6 +670,10 @@ rect.held, rect.combo.held {
 <tspan x="616" dy="-0.6em">BRI</tspan><tspan x="616" dy="1.2em">INC</tspan>
 </text>
 </g>
+<g class="combo combopos-11">
+<rect rx="6" ry="6" x="658" y="78" width="28" height="26" class="combo"/>
+<use href="#mdi:arrow-up-bold" xlink:href="#mdi:arrow-up-bold" x="663" y="82" height="18" width="18.0" class="combo tap glyph mdi:arrow-up-bold"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 398)" class="layer-NUM">
@@ -1053,6 +1057,10 @@ rect.held, rect.combo.held {
 <tspan x="616" dy="-0.6em">BRI</tspan><tspan x="616" dy="1.2em">INC</tspan>
 </text>
 </g>
+<g class="combo combopos-11">
+<rect rx="6" ry="6" x="658" y="78" width="28" height="26" class="combo"/>
+<use href="#mdi:arrow-up-bold" xlink:href="#mdi:arrow-up-bold" x="663" y="82" height="18" width="18.0" class="combo tap glyph mdi:arrow-up-bold"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 796)" class="layer-SYM">
@@ -1427,6 +1435,10 @@ rect.held, rect.combo.held {
 <tspan x="616" dy="-0.6em">BRI</tspan><tspan x="616" dy="1.2em">INC</tspan>
 </text>
 </g>
+<g class="combo combopos-11">
+<rect rx="6" ry="6" x="658" y="78" width="28" height="26" class="combo"/>
+<use href="#mdi:arrow-up-bold" xlink:href="#mdi:arrow-up-bold" x="663" y="82" height="18" width="18.0" class="combo tap glyph mdi:arrow-up-bold"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1195)" class="layer-FUN">
@@ -1793,6 +1805,10 @@ rect.held, rect.combo.held {
 <tspan x="616" dy="-0.6em">BRI</tspan><tspan x="616" dy="1.2em">INC</tspan>
 </text>
 </g>
+<g class="combo combopos-11">
+<rect rx="6" ry="6" x="658" y="78" width="28" height="26" class="combo"/>
+<use href="#mdi:arrow-up-bold" xlink:href="#mdi:arrow-up-bold" x="663" y="82" height="18" width="18.0" class="combo tap glyph mdi:arrow-up-bold"/>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1593)" class="layer-MOUSE">
@@ -1838,10 +1854,10 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
-<g transform="translate(700, 28)" class="key keypos-8">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<use href="#mdi:arrow-up-bold" xlink:href="#mdi:arrow-up-bold" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:arrow-up-bold"/>
+<g transform="translate(700, 28)" class="key trans keypos-8">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
 <g transform="translate(756, 42)" class="key trans keypos-9">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -2161,6 +2177,10 @@ rect.held, rect.combo.held {
 <text x="616" y="48" class="combo tap">
 <tspan x="616" dy="-0.6em">BRI</tspan><tspan x="616" dy="1.2em">INC</tspan>
 </text>
+</g>
+<g class="combo combopos-11">
+<rect rx="6" ry="6" x="658" y="78" width="28" height="26" class="combo"/>
+<use href="#mdi:arrow-up-bold" xlink:href="#mdi:arrow-up-bold" x="663" y="82" height="18" width="18.0" class="combo tap glyph mdi:arrow-up-bold"/>
 </g>
 </g>
 </g>
@@ -2529,6 +2549,10 @@ rect.held, rect.combo.held {
 <text x="616" y="48" class="combo tap">
 <tspan x="616" dy="-0.6em">BRI</tspan><tspan x="616" dy="1.2em">INC</tspan>
 </text>
+</g>
+<g class="combo combopos-11">
+<rect rx="6" ry="6" x="658" y="78" width="28" height="26" class="combo"/>
+<use href="#mdi:arrow-up-bold" xlink:href="#mdi:arrow-up-bold" x="663" y="82" height="18" width="18.0" class="combo tap glyph mdi:arrow-up-bold"/>
 </g>
 </g>
 </g>
@@ -2899,6 +2923,10 @@ rect.held, rect.combo.held {
 <text x="616" y="48" class="combo tap">
 <tspan x="616" dy="-0.6em">BRI</tspan><tspan x="616" dy="1.2em">INC</tspan>
 </text>
+</g>
+<g class="combo combopos-11">
+<rect rx="6" ry="6" x="658" y="78" width="28" height="26" class="combo"/>
+<use href="#mdi:arrow-up-bold" xlink:href="#mdi:arrow-up-bold" x="663" y="82" height="18" width="18.0" class="combo tap glyph mdi:arrow-up-bold"/>
 </g>
 </g>
 </g>
