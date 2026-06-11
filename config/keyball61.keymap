@@ -15,7 +15,7 @@
 // 1. ตั้งค่าความเร็วการเคลื่อนที่และระยะ Scroll ใหม่อย่างถูกต้อง
 
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 1500
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 5
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 2
 
 &nice_view_spi { cs-gpios = <&pro_micro 1 GPIO_ACTIVE_HIGH>; };
 
