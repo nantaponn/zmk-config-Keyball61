@@ -454,4 +454,4 @@ combos:
 - p: [4, 5]
   k: $$mdi:brightness-7$$
 - p: [6, 7]
-  k: BRI INC
+  k: $$mdi:brightness-5$$
