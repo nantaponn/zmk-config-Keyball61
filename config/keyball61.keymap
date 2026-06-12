@@ -83,7 +83,7 @@
         };
 
         Bri.up {
-            bindings = <&kp C_BRI_INC>;
+            bindings = <&kp C_BRIGHTNESS_INC>;
             key-positions = <6 7>;
             require-prior-idle-ms = <150>;
         };
