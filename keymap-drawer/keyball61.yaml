@@ -43,8 +43,8 @@ layers:
   - C
   - V
   - B
-  - PgDn
   - PgUp
+  - PgDn
   - N
   - M
   - {t: ',', s: <}
